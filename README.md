@@ -13,7 +13,7 @@ Siga as instruções abaixo para executar o projeto localmente:
    
 npm install
 
-3. Executar o projeto:
+2. Executar o projeto:
 
 ●Rodar a API (JSON Server):
 
