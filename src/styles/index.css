@@ -1,0 +1,31 @@
+:root{
+  --bg: #f6f7fb;
+  --card: #fff;
+  --accent: #6c63ff;
+  --muted: #666;
+}
+
+*{box-sizing:border-box}
+body{font-family: Inter, system-ui, Arial; margin:0; background:var(--bg); color:#111}
+.container{max-width:1000px; margin:24px auto; padding:0 16px}
+
+.header{background:var(--card); box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+.header-inner{display:flex; align-items:center; justify-content:space-between; padding:12px 16px}
+.header a{color:var(--accent); text-decoration:none}
+nav a{margin-left:12px; color:var(--muted)}
+
+.list-header{display:flex; justify-content:space-between; align-items:center}
+.btn{background:var(--accent); color:white; padding:8px 12px; border-radius:6px; text-decoration:none; margin-left:8px}
+.btn-light{background:#eee; color:#111}
+.btn-small{padding:6px 8px; margin-right:6px}
+.btn-danger{background:#e04b4b}
+
+.cards{display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap:12px; margin-top:16px}
+
+.task-card{background:var(--card); padding:12px; border-radius:8px; box-shadow:0 1px 4px rgba(0,0,0,0.04)}
+.form{display:flex; flex-direction:column; gap:8px; max-width:600px}
+.form input, .form textarea, .form select{padding:8px; border:1px solid #ddd; border-radius:6px}
+.form-actions{margin-top:12px}
+.stats{list-style:none; padding:0; display:flex; gap:16px}
+.filter-bar{display:flex; gap:8px; align-items:center; margin-top:12px}
+.filter-count{color:var(--muted)}

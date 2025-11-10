@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Ler capítulo 3 de História",
+      "description": "Ler e resumir o capítulo 3 (páginas 45-60).",
+      "dueDate": "2025-11-14",
+      "priority": "Média",
+      "assignedTo": "Pedro",
+      "status": "pendente",
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "title": "Exercícios de Matemática",
+      "description": "Fazer lista de exercícios - página 23.",
+      "dueDate": "2025-11-12",
+      "priority": "Alta",
+      "assignedTo": "Mariana",
+      "status": "em andamento",
+      "completed": false,
+      "notes": ""
+    },
+    {
+      "title": "Trabalho de Ciências",
+      "assignedTo": "Luiza",
+      "priority": "Alta",
+      "status": "pendente",
+      "id": 4
+    },
+    {
+      "title": "Trabalho de Filosofia",
+      "assignedTo": "Heitor",
+      "priority": "Alta",
+      "status": "pendente",
+      "id": 6,
+      "dueDate": "2025-11-28",
+      "description": "Fazer uma análise do \"Mito da Caverna\" de Platão"
+    }
+  ]
+}
