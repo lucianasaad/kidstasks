@@ -9,10 +9,11 @@ Além disso, o projeto demonstra o uso de hooks, roteamento e integração com A
 
 Siga as instruções abaixo para executar o projeto localmente:
 
-1. Instalar dependências
+1. Instalar dependências:
+   
 npm install
 
-2. Executar o projeto:
+3. Executar o projeto:
 
 ●Rodar a API (JSON Server):
 
